@@ -1,0 +1,76 @@
+.myNav{
+    background-color: #DCD6F7;
+}
+
+.logoImg{
+    width: 140px;
+    height: 45px;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.btnFooter{
+    background-color: #424874;
+    color: white;
+    width: 120px;
+}
+
+.btnFooter:hover{
+    background-color: #A6B1E1;
+}
+
+.myFooter{
+    background-color: #DCD6F7;
+    margin-top: 80vh;
+}
+
+.footer-link{
+    color: #424874;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2017/11/24/21/49/bali-2975787_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heroText{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    text-align: center;
+    width: 45vw;
+    height: 22vh;
+    background-color: #DCD6F7;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText h2{
+    color: #424874;
+}
+
+.btnHero{
+    width: 120px;
+    background-color: #424874;
+    color: white;
+}
+
+.btnHero:hover{
+    background-color: #A6B1E1;
+}
+
