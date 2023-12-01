@@ -23,7 +23,6 @@
 
 .myFooter{
     background-color: #DCD6F7;
-    margin-top: 80vh;
     margin-bottom: 0;
 }
 
@@ -46,11 +45,11 @@
 
 .heroText{
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 27%;
     text-align: center;
     width: 45vw;
-    height: 22vh;
+    height: 28vh;
     background-color: #DCD6F7;
     border-radius: 20px;
     padding: 1rem;
@@ -77,5 +76,17 @@
 
 .body{
     background-color: #A6B1E1;
+}
+
+.headers{
+    color: #424874;
+}
+
+.cardText{
+    height: 390px!important;
+}
+
+.myCardImg{
+    height: 400px!important;
 }
 

@@ -10,11 +10,17 @@
 
 <div class="body"> 
     
-    <div class="conteiner">
-        <div class="main">
-            <p>Some text</p>
-        </div>
+    <div class="container">
+        <h2 class="py-5 headers">City tours</h2>
+        {% include "tours/tours.html.twig" %} 
+
+        <h2 class="py-5 headers">Private tours</h2>
+        {% include "private_tours/privateTours.html.twig" %} 
+
+        <h2 class="py-5 headers">Group tours</h2>
+        {% include "group_tours/groupTours.html.twig" %} 
     </div>
+
 </div>
 
 {# {% include "components/footer.html.twig" %} #}
